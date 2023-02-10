@@ -136,6 +136,13 @@ width: 80%;
 }
   /* *********** MEDIA QUERIES *************** */
 
+  @media screen and (max-width: 1250px) {
+.me{
+
+    flex-direction: column;
+    align-items: center;
+}
+  }
   @media screen and (max-width: 1000px) {
     nav li {
       font-size: 0.7rem;
@@ -172,5 +179,4 @@ h1{
 .header-left{
     width: 10%;
 }
- 
  }
