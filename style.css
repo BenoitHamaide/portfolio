@@ -28,7 +28,7 @@ body {
   position: absolute;
 }
 main {
-  margin-top: 200px;
+  margin-top: 250px;
   margin-left: 190px;
 }
 nav {
@@ -55,11 +55,10 @@ nav ul {
     color: black;
   text-decoration: none;
   padding: 5px;
-  transition: 1s;
+  transition: 0.6s;
 }
 .header-nav a:hover{
-    background: #474dffac;
-  padding: 5px;
+  background: transparent;
   border-radius: 50px;
   color: white;
 }
@@ -83,9 +82,9 @@ h1 span {
   color: #474dff;
   font-size: 1.8rem;
 }
-button {
+button, input {
   border: none;
-  background: #474dff;
+  background: #9cbdb4;
   color: white;
   width: 150px;
   padding: 10px 0;
@@ -96,11 +95,16 @@ button {
   margin-top: 50px;
   transition: 1s;
 }
-button:hover {
-  background: rgba(0, 0, 0, 0.24);
+ button:hover {
+  background: #9cbdb434;
   color: black;
+  border: 1px solid black;
 }
-
+input:hover {
+  background: #9cbdb434;
+  color: black;
+  border: 1px solid black;
+}
 .button-home {
   margin-left: 235px;
 }
@@ -112,25 +116,24 @@ button:hover {
 .button-home a:hover{
     color: black;
 }
-#moncercle{
-    display: flex;
-    background: transparent fixed;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    top: 143px;
-    margin-left: 805px;
-    position: relative;
-    transition: 1s;
-    color:transparent;
-    text-align: center;
-    align-self: center;
-    align-items: center;
-  }
-  #moncercle:hover{
-color: white;
-  }
-
+.me{
+ display: flex; 
+width: 80%;
+}
+.me img{
+  width: 25%;
+  border-radius: 50%;
+}
+.button-cv{
+  margin-left: 100px;
+}
+.buttonCv{
+  margin-top: 10px;
+}
+.me p{
+  margin-top: 30px;
+  line-height: 1.5em;
+}
   /* *********** MEDIA QUERIES *************** */
 
   @media screen and (max-width: 1000px) {
