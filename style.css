@@ -82,7 +82,7 @@ h1 span {
   color: #474dff;
   font-size: 1.8rem;
 }
-button, input {
+.button-home button, input {
   border: none;
   background: #9cbdb4;
   color: white;
@@ -95,12 +95,12 @@ button, input {
   margin-top: 50px;
   transition: 1s;
 }
- button:hover {
+.button-home button:hover {
   background: #9cbdb434;
   color: black;
   border: 1px solid black;
 }
-input:hover {
+.button-home input:hover {
   background: #9cbdb434;
   color: black;
   border: 1px solid black;
@@ -134,6 +134,12 @@ width: 80%;
   margin-top: 30px;
   line-height: 1.5em;
 }
+.mail{
+  color:black;
+}
+.email{
+  margin-top: 20px;
+}
   /* *********** MEDIA QUERIES *************** */
 
   @media screen and (max-width: 1250px) {
@@ -147,6 +153,7 @@ width: 80%;
     nav li {
       font-size: 0.7rem;
     }
+ 
 }
 @media screen and (max-width: 870px) {
     .header-nav{
